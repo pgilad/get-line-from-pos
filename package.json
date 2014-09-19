@@ -1,0 +1,40 @@
+{
+    "name": "get-get-from-pos",
+    "version": "0.1.0",
+    "description": "Get the line number of a string using index or position",
+    "homepage": "https://github.com/pgilad/get-get-from-pos",
+    "bugs": "https://github.com/pgilad/get-get-from-pos/issues",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pgilad/get-get-from-pos"
+    },
+    "scripts": {
+        "test": "mocha -R spec ./tests/test.js",
+        "watch": "mocha -w -R spec ./tests/test.js"
+    },
+    "keywords": [
+        "line",
+        "position",
+        "index",
+        "helper",
+        "regex",
+        "exec"
+    ],
+    "author": {
+        "name": "Gilad Peleg",
+        "email": "giladp007@gmail.com"
+    },
+    "files": [
+        "license.md",
+        "index.js"
+    ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "devDependencies": {
+        "expect.js": "*",
+        "mocha": "*"
+    },
+    "license": "MIT"
+}
