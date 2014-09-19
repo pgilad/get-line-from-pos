@@ -10,9 +10,9 @@ Lookup a line number in a string using an index or position.
 Useful if you want to get a line number of a position or index from a regex match, but can
 also be used in other situations.
 
-- Allows using negative positions to lookup line number
+- Allows using negative positions to lookup line number.
 - Supported by CommonJS, AMD and browser.
-- Supports MacOS line ending style (`\r`)
+- Supports Regular line ending style (`\n`) and MacOS line ending style (`\r`).
 
 #### Installation
 
