@@ -1,36 +1,36 @@
 {
-    "name": "get-line-from-pos",
-    "version": "0.1.1",
-    "description": "Get the line number of a string using index or position",
-    "repository": "pgilad/get-line-from-pos",
-    "license": "MIT",
-    "author": {
-        "name": "Gilad Peleg",
-        "email": "giladp007@gmail.com",
-        "url": "http://giladpeleg.com"
-    },
-    "main": "index.js",
-    "files": [
-        "index.js"
-    ],
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "mocha -R spec ./tests/test.js",
-        "watch": "mocha -w -R spec ./tests/test.js"
-    },
-    "keywords": [
-        "line",
-        "position",
-        "index",
-        "helper",
-        "regex",
-        "exec",
-        "js"
-    ],
-    "devDependencies": {
-        "expect.js": "*",
-        "mocha": "*"
-    }
+  "name": "get-line-from-pos",
+  "version": "1.0.0",
+  "description": "Get the line number of a string using index or position",
+  "repository": "pgilad/get-line-from-pos",
+  "license": "MIT",
+  "author": {
+    "name": "Gilad Peleg",
+    "email": "giladp007@gmail.com",
+    "url": "http://giladpeleg.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec ./tests/test.js",
+    "watch": "mocha -w -R spec ./tests/test.js"
+  },
+  "keywords": [
+    "line",
+    "position",
+    "index",
+    "helper",
+    "regex",
+    "exec",
+    "js"
+  ],
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*"
+  }
 }
