@@ -78,5 +78,5 @@ Type: `Number`
 The index or position to lookup the line number.
 
 ## License
-Copyright © 2014 Gilad Peleg.
-Licensed under the MIT license.
+
+MIT ©[Gilad Peleg](http://giladpeleg.com)
