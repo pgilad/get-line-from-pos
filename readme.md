@@ -50,7 +50,7 @@ Load the script:
 ```
 
 Then when you need to use it:
-```
+```js
 console.log(getLineFromPos(someStr, -1));
 //-> Will output the number of lines in someStr
 ```
